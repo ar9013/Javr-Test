@@ -95,8 +95,7 @@ public final class ImageDetectionFilter {
 		mReferenceCorners.put(2, 0, new double[] { referenceImageGray.cols(), referenceImageGray.rows() });
 		mReferenceCorners.put(3, 0, new double[] { 0.0, referenceImageGray.rows() });
 
-		// Detect the reference features and compute their
-		// descriptors.
+		// Detect the reference features and compute their descriptors.
 		mFeatureDetector.detect(referenceImageGray, mReferenceKeypoints);
 		mDescriptorExtractor.compute(referenceImageGray, mReferenceKeypoints, mReferenceDescriptors);
 	}
