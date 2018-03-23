@@ -66,9 +66,7 @@ project(":android") {
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86_64"
 
-        // https://mvnrepository.com/artifact/org.boofcv/android
-        compile group: 'org.boofcv', name: 'android', version: '0.26'
-
+    
     }
 }
 

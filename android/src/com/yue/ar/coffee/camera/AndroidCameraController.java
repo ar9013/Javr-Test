@@ -8,7 +8,6 @@ import android.widget.FrameLayout;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.yue.ar.coffee.AndroidLauncher;
-import com.yue.ar.coffee.vision.GrayTask;
 
 
 import java.io.FileNotFoundException;
@@ -28,7 +27,7 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
     private byte[] pictureData;
 
     public static ArrayDeque<byte[]> frames;
-    GrayTask grayTask = null;
+
     boolean isMarker = false;
 
 
@@ -36,7 +35,7 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
 
         this.activity = activity;
         frames = new ArrayDeque<>();
-        grayTask = new GrayTask(isMarker);
+
 
     }
 
@@ -244,8 +243,8 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
     @Override
     public void onPreviewFrame(byte[] previewData, Camera camera) {
 
-        frames.addLast(previewData);
-        grayTask.run();
+       // frames.addLast(previewData);
+
     }
 
 }

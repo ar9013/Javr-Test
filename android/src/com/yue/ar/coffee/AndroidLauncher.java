@@ -4,7 +4,6 @@ import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import android.util.Log;
@@ -13,13 +12,9 @@ import android.view.SurfaceView;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.yue.ar.coffee.camera.AndroidCameraController;
-import com.yue.ar.coffee.vision.GrayTask;
 import com.yue.ar.suite.R;
 
 import java.util.ArrayDeque;
-
-import boofcv.android.ConvertBitmap;
-import boofcv.struct.image.GrayU8;
 
 
 public class AndroidLauncher extends AndroidApplication {
@@ -30,7 +25,7 @@ public class AndroidLauncher extends AndroidApplication {
 	CameraControl cameraControl = null;  // 為了 取得 callback
 
     public static ArrayDeque<Bitmap> markers = null;
-	GrayTask grayTask = null;
+
 	boolean isMarker = false;
 
 	@Override
@@ -41,8 +36,7 @@ public class AndroidLauncher extends AndroidApplication {
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 		initMarker();
-		grayTask = new GrayTask(isMarker);
-		grayTask.run();
+
 
 		// 設定 Android app
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration()
