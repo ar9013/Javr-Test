@@ -22,8 +22,8 @@ android {
         minSdkVersion 9
         targetSdkVersion 21
         versionCode 1
-        versionName "1.0"
-    }
+        versionName "1.0"}
+
     buildTypes {
         release {
             minifyEnabled false
@@ -131,4 +131,5 @@ idea {
     }
 }
 dependencies {
+    compile project(':openCVLibrary331')
 }

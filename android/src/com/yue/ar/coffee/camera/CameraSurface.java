@@ -9,8 +9,8 @@ public class CameraSurface extends SurfaceView implements SurfaceHolder.Callback
 
     private Camera androidCamera = null;
 
-      public static int previewWidth = 0;
-      public static int previewHeight =0;
+    public static int previewWidth = 0;
+    public static int previewHeight = 0;
 
     AndroidCameraController cameraController = null;
 
