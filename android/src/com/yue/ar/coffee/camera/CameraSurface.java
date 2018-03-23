@@ -49,7 +49,7 @@ public class CameraSurface extends SurfaceView implements SurfaceHolder.Callback
 
     @Override
     public void surfaceDestroyed(SurfaceHolder surfaceHolder) {
-        androidCamera.setPreviewCallback(null);
+        androidCamera.setPreviewCallback(null); // 釋放 攝影機
         androidCamera.stopPreview();
         androidCamera.release();
         androidCamera = null;
