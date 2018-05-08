@@ -49,277 +49,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4483e067-9d9f-4067-b13f-66eb18753d6a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/HomographyTask.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchResult.java" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_badlogicgames_gdx_gdx_1_9_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_badlogicgames_gdx_gdx_backend_android_1_9_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_badlogicgames_gdx_gdx_box2d_1_9_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_badlogicgames_gdx_gdx_freetype_1_9_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/core_core_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/core_core_1_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gdx_1_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gdx_1_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gdx_backend_moe_1_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gdx_backend_moe_1_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gdx_box2d_1_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gdx_box2d_1_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gdx_freetype_1_9_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gdx_freetype_1_9_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ios_moe_ios_moe_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/java8support.xml" afterPath="$PROJECT_DIR$/.idea/libraries/java8support.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/moe_core.xml" afterPath="$PROJECT_DIR$/.idea/libraries/moe_core.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/moe_ios.xml" afterPath="$PROJECT_DIR$/.idea/libraries/moe_ios.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/moe_ios_junit.xml" afterPath="$PROJECT_DIR$/.idea/libraries/moe_ios_junit.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Javr-master.iml" afterPath="$PROJECT_DIR$/Javr-master.iml" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="$PROJECT_DIR$/LICENSE.md" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/android/ic_launcher-web.png" afterPath="$PROJECT_DIR$/android/ic_launcher-web.png" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libTAR.so" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libTAR.so" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libc++_shared.so" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libc++_shared.so" />
-      <change beforePath="$PROJECT_DIR$/android/proguard-rules.pro" afterPath="$PROJECT_DIR$/android/proguard-rules.pro" />
-      <change beforePath="$PROJECT_DIR$/android/project.properties" afterPath="$PROJECT_DIR$/android/project.properties" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/bitan.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/bridge.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/chengpo.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/chiayi.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/chiayi_park.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/clean.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/coffee.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/family.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/school.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/shanghai.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/summer_street.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/drawable-hdpi/water_pool.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android/res/values/strings.xml" afterPath="$PROJECT_DIR$/android/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/android/res/values/styles.xml" afterPath="$PROJECT_DIR$/android/res/values/styles.xml" />
-      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java" />
-      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java" />
-      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/CameraSurface.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/CameraSurface.java" />
-      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ImageDetectionFilter.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ImageDetectionFilter.java" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/libs/TencentMapSDK_Raster_v1.1.2.16281.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/tencent/example/location/ApplicationTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/demos.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/my_libtencentloc.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoDirectionActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoIntervalActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoLevelActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoListActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoLoadSoActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoMapActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoStatusActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoThreadActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoThreadActivity2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/DemoWgs84Activity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/SdkInfoActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/fence/DemoGeofenceApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/fence/DemoGeofenceEditorActivty.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/fence/DemoGeofenceEventActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/fence/DemoGeofenceEventReceiver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/fence/DemoGeofenceService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/fence/LocationHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/tencent/example/location/fence/Utils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libtencentloc.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libtencentloc.so" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_pointer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/mark_location.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/sendtocar_balloon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_demo_map.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_direction.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_geofence_editor.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sdk_info.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_template.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_geofence.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v11/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" afterPath="$PROJECT_DIR$/core/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java" afterPath="$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/yue/ar/coffee/Deck.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change beforePath="$PROJECT_DIR$/import-summary.txt" afterPath="$PROJECT_DIR$/import-summary.txt" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/build.gradle" afterPath="$PROJECT_DIR$/ios-moe/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/ios-moe.iml" afterPath="$PROJECT_DIR$/ios-moe/ios-moe.iml" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/src/com/yue/ar/coffee/IOSCameraController.java" afterPath="$PROJECT_DIR$/ios-moe/src/com/yue/ar/coffee/IOSCameraController.java" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/src/com/yue/ar/coffee/IOSMoeLauncher.java" afterPath="$PROJECT_DIR$/ios-moe/src/com/yue/ar/coffee/IOSMoeLauncher.java" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe-Test/Info.plist" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe-Test/Info.plist" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe-Test/main.cpp" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe-Test/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe.xcodeproj/project.pbxproj" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-1024w-1366h@2x~ipad.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-1024w-1366h@2x~ipad.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-375w-667h@2x.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-375w-667h@2x.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-414w-736h@3x.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-414w-736h@3x.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-568h@2x.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default-568h@2x.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default@2x.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default@2x.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default@2x~ipad.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default@2x~ipad.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default~ipad.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Default~ipad.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon-72.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon-72.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon-72@2x.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon-72@2x.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon@2x.png" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Icon@2x.png" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Info.plist" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/Info.plist" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/custom.xcconfig" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/custom.xcconfig" />
-      <change beforePath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/main.cpp" afterPath="$PROJECT_DIR$/ios-moe/xcode/ios-moe/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/lint.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/openCVLibrary331.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/AsyncServiceHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/BaseLoaderCallback.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/Camera2Renderer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/CameraGLRendererBase.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/CameraGLSurfaceView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/CameraRenderer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/FpsMeter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/InstallCallbackInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/JavaCameraView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/LoaderCallbackInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/OpenCVLoader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/StaticHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/android/Utils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/calib3d/Calib3d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/calib3d/StereoBM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/calib3d/StereoMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/calib3d/StereoSGBM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Algorithm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Core.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/CvException.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/CvType.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/DMatch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/KeyPoint.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Mat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfByte.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfDMatch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfDouble.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfFloat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfFloat4.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfFloat6.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfInt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfInt4.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfKeyPoint.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfPoint.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfPoint2f.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfPoint3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfPoint3f.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfRect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/MatOfRect2d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Point.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Point3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Range.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Rect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Rect2d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/RotatedRect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Scalar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/Size.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/TermCriteria.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/core/TickMeter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/dnn/DictValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/dnn/Dnn.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/dnn/Importer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/dnn/Layer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/dnn/Net.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/AKAZE.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/AgastFeatureDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/BFMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/BOWImgDescriptorExtractor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/BOWKMeansTrainer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/BOWTrainer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/BRISK.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/DescriptorExtractor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/DescriptorMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/FastFeatureDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/Feature2D.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/FeatureDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/Features2d.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/FlannBasedMatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/GFTTDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/KAZE.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/MSER.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/ORB.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/features2d/Params.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/imgcodecs/Imgcodecs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/imgproc/CLAHE.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/imgproc/Imgproc.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/imgproc/LineSegmentDetector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/imgproc/Moments.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/imgproc/Subdiv2D.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/ANN_MLP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/Boost.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/DTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/EM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/KNearest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/LogisticRegression.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/Ml.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/NormalBayesClassifier.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/ParamGrid.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/RTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/SVM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/SVMSGD.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/StatModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/ml/TrainData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/objdetect/BaseCascadeClassifier.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/objdetect/CascadeClassifier.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/objdetect/HOGDescriptor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/objdetect/Objdetect.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/osgi/OpenCVInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/osgi/OpenCVNativeLoader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/AlignExposures.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/AlignMTB.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/CalibrateCRF.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/CalibrateDebevec.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/CalibrateRobertson.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/MergeDebevec.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/MergeExposures.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/MergeMertens.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/MergeRobertson.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/Photo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/Tonemap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/TonemapDrago.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/TonemapDurand.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/TonemapMantiuk.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/photo/TonemapReinhard.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/utils/Converters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/BackgroundSubtractor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/BackgroundSubtractorKNN.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/BackgroundSubtractorMOG2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/DenseOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/DualTVL1OpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/FarnebackOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/KalmanFilter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/SparseOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/SparsePyrLKOpticalFlow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/video/Video.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/videoio/VideoCapture.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/videoio/VideoWriter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/java/org/opencv/videoio/Videoio.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/openCVLibrary331/src/main/res/values/attrs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -4601,12 +4332,21 @@
       <option name="presentableId" value="Default" />
       <updated>1525346067110</updated>
     </task>
+    <task id="LOCAL-00001" summary="20180508&#10;finish Android markerless AR CV part.">
+      <created>1525791459854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525791459854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -4620,7 +4360,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -4639,6 +4379,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20180508&#10;finish Android markerless AR CV part." />
+    <option name="LAST_COMMIT_MESSAGE" value="20180508&#10;finish Android markerless AR CV part." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
