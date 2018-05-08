@@ -1,2 +1,2 @@
 include 'android', 'core', 'ios-moe'
-include ':openCVLibrary331'
+include ':openCVLibrary310'

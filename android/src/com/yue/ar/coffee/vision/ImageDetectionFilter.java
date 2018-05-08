@@ -172,6 +172,7 @@ public final class ImageDetectionFilter {
 				goodScenePointsList.add(sceneKeypointsList.get(match.queryIdx).pt);
 			}
 		}
+
 		if (goodReferencePointsList.size() < 4 || goodScenePointsList.size() < 4) {
 			// There are too few good points to find the homography.
 			return;
@@ -186,6 +187,12 @@ public final class ImageDetectionFilter {
 
 		final MatOfPoint2f goodScenePoints = new MatOfPoint2f();
 		goodScenePoints.fromList(goodScenePointsList);
+
+
+
+
+
+
 
 		// Find the homography.
 		final Mat homography = Calib3d.findHomography(goodReferencePoints, goodScenePoints);

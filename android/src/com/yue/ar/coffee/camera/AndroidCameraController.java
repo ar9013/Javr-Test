@@ -2,12 +2,14 @@ package com.yue.ar.coffee.camera;
 
 import android.graphics.Bitmap;
 import android.hardware.Camera;
+import android.util.Log;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.yue.ar.coffee.AndroidLauncher;
+import com.yue.ar.coffee.vision.ARFilter;
 
 
 import java.io.FileNotFoundException;
@@ -26,15 +28,11 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
     private CameraSurface cameraSurface;
     private byte[] pictureData;
 
-    public static ArrayDeque<byte[]> frames;
-
-    boolean isMarker = false;
-
 
     public AndroidCameraController(AndroidLauncher activity) {
 
         this.activity = activity;
-        frames = new ArrayDeque<>();
+
 
 
     }
@@ -70,24 +68,25 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
         }
 
         activity.restoreFixedSize();
-
     }
 
     public void setCameraParametersForPicture(Camera camera) {
-        // Before we take the picture - we make sure all camera parameters are
-        // as we like them
+        // Before we take the picture - we make sure all camera parameters are as we like them
         // Use max resolution and auto focus
 
         Camera.Parameters p = camera.getParameters();
         List<Camera.Size> supportedSizes = p.getSupportedPictureSizes();
+
         int maxSupportedWidth = -1;
         int maxSupportedHeight = -1;
+
         for (Camera.Size size : supportedSizes) {
             if (size.width > maxSupportedWidth) {
                 maxSupportedWidth = size.width;
                 maxSupportedHeight = size.height;
             }
         }
+
         p.setPictureSize(maxSupportedWidth, maxSupportedHeight);
         p.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO);
         camera.setParameters(p);
@@ -243,7 +242,15 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
     @Override
     public void onPreviewFrame(byte[] previewData, Camera camera) {
 
-       // frames.addLast(previewData);
+        ARFilter.frameBuffer.addLast(previewData);
+        Log.d(TAG,"frames size : " + ARFilter.frameBuffer.size());
+
+        ARFilter.frameGray();
+        ARFilter.makeOrbFeature();
+        ARFilter.match();
+        ARFilter.homography();
+
+
 
     }
 
