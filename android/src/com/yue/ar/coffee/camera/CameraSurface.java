@@ -9,8 +9,8 @@ public class CameraSurface extends SurfaceView implements SurfaceHolder.Callback
 
     private Camera androidCamera = null;
 
-      public static int previewWidth = 0;
-      public static int previewHeight =0;
+    public static int previewWidth = 0;
+    public static int previewHeight = 0;
 
     AndroidCameraController cameraController = null;
 
@@ -32,12 +32,14 @@ public class CameraSurface extends SurfaceView implements SurfaceHolder.Callback
     @Override
     public void surfaceChanged(SurfaceHolder holder, int format, int w, int h) {
 
+        // 設定 預覽大小
         Camera.Parameters params = androidCamera.getParameters();
+        params.setPreviewSize(800,600);
         androidCamera.setParameters(params);
 
-        Camera.Size size = params.getPictureSize();
+        Camera.Size size = params.getPreviewSize();
         previewHeight = size.height;
-        previewHeight = size.width;
+        previewWidth = size.width;
 
         try{
             androidCamera.setPreviewCallback(cameraController);

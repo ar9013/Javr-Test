@@ -4,7 +4,6 @@ import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import android.util.Log;
@@ -13,13 +12,18 @@ import android.view.SurfaceView;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.yue.ar.coffee.camera.AndroidCameraController;
-import com.yue.ar.coffee.vision.GrayTask;
+import com.yue.ar.coffee.vision.ARFilter;
+import com.yue.ar.coffee.vision.ImageDetectionFilter;
 import com.yue.ar.suite.R;
 
-import java.util.ArrayDeque;
+import org.opencv.android.BaseLoaderCallback;
+import org.opencv.android.LoaderCallbackInterface;
+import org.opencv.android.OpenCVLoader;
 
-import boofcv.android.ConvertBitmap;
-import boofcv.struct.image.GrayU8;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayDeque;
+import java.util.LinkedList;
 
 
 public class AndroidLauncher extends AndroidApplication {
@@ -29,9 +33,61 @@ public class AndroidLauncher extends AndroidApplication {
 	private String TAG = "AndroidLauncher";
 	CameraControl cameraControl = null;  // 為了 取得 callback
 
-    public static ArrayDeque<Bitmap> markers = null;
-	GrayTask grayTask = null;
-	boolean isMarker = false;
+    public static LinkedList<ARFilter> markerList = null;
+
+	// opencv BaseLoader
+	BaseLoaderCallback loaderCallback = new BaseLoaderCallback(this) {
+		@Override
+		public void onManagerConnected(int status) {
+			switch(status){
+				case LoaderCallbackInterface.SUCCESS:
+				{
+					Log.i(TAG,"OpenCV loaded successfully");
+					markerList = new LinkedList<>();
+
+					final ARFilter bird ;
+					try {
+						bird = new ARFilter(AndroidLauncher.this,R.drawable.bird,"bird");
+						markerList.addLast(bird);
+					}catch (IOException ex) {
+						ex.printStackTrace();
+					}
+
+					final ARFilter butterflies;
+					try {
+						butterflies = new ARFilter(AndroidLauncher.this,R.drawable.fireworks,"butterfly");
+						markerList.addLast(butterflies);
+					}catch (IOException ex) {
+						ex.printStackTrace();
+					}
+
+					final ARFilter coffee;
+					try {
+						coffee = new ARFilter(AndroidLauncher.this,R.drawable.coffee,"coffee");
+						markerList.addLast(coffee);
+					}catch (IOException ex) {
+						ex.printStackTrace();
+					}
+
+					final  ARFilter dinosaur;
+					try {
+						dinosaur = new ARFilter(AndroidLauncher.this,R.drawable.rocket,"dinosaur");
+						markerList.addLast(dinosaur);
+					}catch (IOException ex) {
+					ex.printStackTrace();
+					}
+
+					Log.d(TAG,"markers size : "+markerList.size());
+				}
+				break;
+
+				default:
+					super.onManagerConnected(status);
+					break;
+			}
+		}
+	};
+
 
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
@@ -39,10 +95,6 @@ public class AndroidLauncher extends AndroidApplication {
 
 		// 設定手機螢幕垂直顯示
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
-		initMarker();
-		grayTask = new GrayTask(isMarker);
-		grayTask.run();
 
 		// 設定 Android app
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration()
@@ -55,7 +107,7 @@ public class AndroidLauncher extends AndroidApplication {
 
 		cameraControl = new AndroidCameraController(this);
 
-		initialize(new com.yue.ar.coffee.Deck(cameraControl), config);
+		initialize(new com.yue.ar.coffee.App(cameraControl), config);
 
 
 		if(graphics.getView() instanceof SurfaceView)
@@ -79,6 +131,14 @@ public class AndroidLauncher extends AndroidApplication {
 		super.onResume();
 		Log.d(TAG,"onResume");
 
+		if(!OpenCVLoader.initDebug()){
+			Log.d(TAG, "Internal OpenCV library not found. Using OpenCV Manager for initialization");
+			OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_3_1_0, this, loaderCallback);
+		}else{
+			Log.d(TAG, "OpenCV library found inside package. Using it!");
+			loaderCallback.onManagerConnected(LoaderCallbackInterface.SUCCESS);
+		}
+
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
@@ -89,7 +149,7 @@ public class AndroidLauncher extends AndroidApplication {
 
 		CameraControl cameraControl = new AndroidCameraController(this);
 
-		initialize(new com.yue.ar.coffee.Deck(cameraControl),config);
+		initialize(new com.yue.ar.coffee.App(cameraControl),config);
 
 		if(graphics.getView() instanceof SurfaceView){
 			SurfaceView glView = (SurfaceView) graphics.getView();
@@ -104,7 +164,6 @@ public class AndroidLauncher extends AndroidApplication {
 
 	}
 
-
 	public void restoreFixedSize() {
 		if (graphics.getView() instanceof SurfaceView) {
 			SurfaceView glView = (SurfaceView) graphics.getView();
@@ -117,13 +176,5 @@ public class AndroidLauncher extends AndroidApplication {
 		handler.post(r);
 	}
 
-	private void initMarker(){
-		isMarker = true;
-		markers = new ArrayDeque<>();
-		BitmapDrawable drawable = (BitmapDrawable) getResources().getDrawable(R.drawable.coffee);
-		Bitmap bitmap = drawable.getBitmap();
-		markers.addLast(bitmap);
-
-	}
 
 }

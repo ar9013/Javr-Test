@@ -19,7 +19,7 @@ public class IOSMoeLauncher extends IOSApplication.Delegate {
         config.useAccelerometer = false;
         CameraControl cameraControl = new IOSCameraController();
 
-        return new IOSApplication(new Deck(cameraControl), config);
+        return new IOSApplication(new App(cameraControl), config);
     }
 
     public static void main(String[] argv) {

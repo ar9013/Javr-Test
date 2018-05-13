@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Javr-master.iml" filepath="$PROJECT_DIR$/Javr-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Javr-Test.iml" filepath="$PROJECT_DIR$/Javr-Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/ios-moe/ios-moe.iml" filepath="$PROJECT_DIR$/ios-moe/ios-moe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" filepath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
     </modules>
   </component>
 </project>
