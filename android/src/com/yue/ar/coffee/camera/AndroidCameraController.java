@@ -245,10 +245,12 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
         ARFilter.frameBuffer.addLast(previewData);
         Log.d(TAG,"frames size : " + ARFilter.frameBuffer.size());
 
-        //ARFilter.frameGray();
-        //ARFilter.makeOrbFeature();
-        //ARFilter.match();
-        //ARFilter.homography();
+
+        // start process frame
+        ARFilter.frameGray(); // change to gray scale
+        ARFilter.makeOrbFeature();  // make orb features
+        ARFilter.match();           // match frame feature to marker
+        ARFilter.homography();
 
 
 

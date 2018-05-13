@@ -23,25 +23,25 @@ public class HomographyTask implements Runnable {
 
     @Override
     public void run() {
-//        if(!ARFilter.matchResultBuffer.isEmpty()) {
-//            MatchResult temp = ARFilter.matchResultBuffer.pollFirst();
-//            final Mat homography = Calib3d.findHomography(temp.getGoodMarkerPoints(), temp.getGoodFramePoints());
-//            int matchedIndex = temp.getMatchedIndex();
-//
-//            Log.d(TAG,"homography size : "+homography.size());
-//            Log.d(TAG,"matchedID : "+AndroidLauncher.markerList.get(matchedIndex).getMarkerID());
-//
-//            Core.perspectiveTransform(AndroidLauncher.markerList.get(matchedIndex).getMarkerCorners(), candidateFrameCorners, homography);
-//            candidateFrameCorners.convertTo(mIntSceneCorners, CvType.CV_32S);
-//
-//            if (Imgproc.isContourConvex(mIntSceneCorners)) {
-//                // The corners form a convex polygon, so record them as
-//                // valid scene corners.
-//                candidateFrameCorners.copyTo(temp.frameCorners);
-//                Log.d(TAG,"frameCorners size : "+temp.getFrameCorners().size());
-//               // targetFound = true;
-//            }
-//
-//        }
+        if(!ARFilter.matchResultBuffer.isEmpty()) {
+            MatchResult temp = ARFilter.matchResultBuffer.pollFirst();
+            final Mat homography = Calib3d.findHomography(temp.getGoodMarkerPoints(), temp.getGoodFramePoints());
+            int matchedIndex = temp.getMatchedIndex();
+
+            Log.d(TAG,"homography size : "+homography.size());
+            Log.d(TAG,"matchedID : "+AndroidLauncher.markerList.get(matchedIndex).getMarkerID());
+
+            Core.perspectiveTransform(AndroidLauncher.markerList.get(matchedIndex).getMarkerCorners(), candidateFrameCorners, homography);
+            candidateFrameCorners.convertTo(mIntSceneCorners, CvType.CV_32S);
+
+            if (Imgproc.isContourConvex(mIntSceneCorners)) {
+                // The corners form a convex polygon, so record them as
+                // valid scene corners.
+                candidateFrameCorners.copyTo(temp.frameCorners);
+                Log.d(TAG,"frameCorners size : "+temp.getFrameCorners().size());
+               // targetFound = true;
+            }
+
+        }
     }
 }

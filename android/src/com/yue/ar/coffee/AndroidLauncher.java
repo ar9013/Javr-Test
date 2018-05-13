@@ -55,7 +55,7 @@ public class AndroidLauncher extends AndroidApplication {
 
 					final ARFilter butterflies;
 					try {
-						butterflies = new ARFilter(AndroidLauncher.this,R.drawable.fireworks,"butterfly");
+						butterflies = new ARFilter(AndroidLauncher.this,R.drawable.fireworks,"fireworks");
 						markerList.addLast(butterflies);
 					}catch (IOException ex) {
 						ex.printStackTrace();
@@ -71,7 +71,7 @@ public class AndroidLauncher extends AndroidApplication {
 
 					final  ARFilter dinosaur;
 					try {
-						dinosaur = new ARFilter(AndroidLauncher.this,R.drawable.rocket,"dinosaur");
+						dinosaur = new ARFilter(AndroidLauncher.this,R.drawable.rocket,"rocket");
 						markerList.addLast(dinosaur);
 					}catch (IOException ex) {
 					ex.printStackTrace();

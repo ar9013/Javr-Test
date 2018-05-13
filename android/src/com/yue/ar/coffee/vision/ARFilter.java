@@ -7,6 +7,7 @@ import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfKeyPoint;
 import org.opencv.features2d.DescriptorExtractor;
+import org.opencv.features2d.DescriptorMatcher;
 import org.opencv.features2d.FeatureDetector;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
@@ -22,10 +23,10 @@ public class ARFilter {
     private final Mat markerCorners = new Mat(4, 1, CvType.CV_32FC2);
 
     // A feature detector, which finds features in images.
-    private final FeatureDetector featureDetector = FeatureDetector.create(FeatureDetector.ORB);
+    static final FeatureDetector featureDetector = FeatureDetector.create(FeatureDetector.ORB);
 
     // A descriptor extractor, which creates descriptors of features.
-    private final DescriptorExtractor descriptorExtractor = DescriptorExtractor.create(DescriptorExtractor.ORB);
+    static final DescriptorExtractor descriptorExtractor = DescriptorExtractor.create(DescriptorExtractor.ORB);
 
     // Features of the reference image.
     private final MatOfKeyPoint markerKeypoints = new MatOfKeyPoint();
@@ -33,8 +34,13 @@ public class ARFilter {
     // Descriptors of the reference image's features.
     private final Mat markerDescriptors = new Mat();
 
+    private String markerName = null;
+    private int markerID = 0;
+
     public ARFilter(final Context context, final int markerID,String markerName)throws IOException {
         // Load the reference image from the app's resources.
+        this.markerName = markerName;
+        this.markerID = markerID;
         // It is loaded in BGR (blue, green, red) format.
         markerSrc = Utils.loadResource(context, markerID, Imgcodecs.CV_LOAD_IMAGE_COLOR);
 
@@ -55,8 +61,53 @@ public class ARFilter {
         descriptorExtractor.compute(markerGray, markerKeypoints, markerDescriptors);
     }
 
-    public static  void frameGray(){
+    MatOfKeyPoint getMarkerKeypoints(){
+        return markerKeypoints;
+    }
 
+     Mat getMarkerDescriptors(){
+        return  markerDescriptors;
+    }
+
+    String getMarkerName(){
+        return markerName;
+    }
+
+    Mat getMarkerCorners(){
+        return markerCorners;
+    }
+
+    int getMarkerID(){
+        return  markerID;
+    }
+
+
+
+    // make grayframe
+    static GrayTask grayTask = new GrayTask();
+    static ArrayDeque<Mat> frameGrayBuffer = new ArrayDeque<>();
+    public static  void frameGray(){
+        grayTask.run();
+    }
+
+    static OrbTask orbTask = new OrbTask();
+    static ArrayDeque<FrameFeature> frameFeatureBuffer = new ArrayDeque<>();
+    public static void makeOrbFeature(){
+        orbTask.run();
+    }
+
+    static MatchTask matchTask = new MatchTask();
+    static final DescriptorMatcher descriptorMatcher = DescriptorMatcher.create(DescriptorMatcher.BRUTEFORCE_HAMMINGLUT);
+    static ArrayDeque<MatchResult> matchResultBuffer = new ArrayDeque<>();
+    public static void  match(){
+        matchTask.run();
+    }
+
+
+    static HomographyTask homographyTask = new HomographyTask();
+
+    public static void homography(){
+        homographyTask.run();
     }
 
 
