@@ -10,12 +10,12 @@ import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.yue.ar.coffee.AndroidLauncher;
 import com.yue.ar.coffee.vision.ARFilter;
+import com.yue.ar.coffee.vision.HomographyTask;
 
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayDeque;
 import java.util.List;
 
 public class AndroidCameraController implements com.yue.ar.coffee.CameraControl, Camera.PictureCallback,Camera.AutoFocusCallback,Camera.PreviewCallback
@@ -32,8 +32,6 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
     public AndroidCameraController(AndroidLauncher activity) {
 
         this.activity = activity;
-
-
 
     }
 
@@ -206,6 +204,13 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
     }
 
     @Override
+    public boolean isTargetFound() {
+        return ARFilter.targetFound;
+    }
+
+
+
+    @Override
     public void onAutoFocus(boolean success, Camera camera) {
         // Focus process finished, we now have focus (or not)
         if (success) {
@@ -245,15 +250,32 @@ public class AndroidCameraController implements com.yue.ar.coffee.CameraControl,
         ARFilter.frameBuffer.addLast(previewData);
         Log.d(TAG,"frames size : " + ARFilter.frameBuffer.size());
 
-
         // start process frame
         ARFilter.frameGray(); // change to gray scale
         ARFilter.makeOrbFeature();  // make orb features
         ARFilter.match();           // match frame feature to marker
         ARFilter.homography();
 
+    }
 
+    @Override
+    public String getMarkerName() {
+        return ARFilter.matchedMarkerName;
+    }
 
+    @Override
+    public String getMarkerTitle() {
+        return ARFilter.matchedMarkerTitle;
+    }
+
+    @Override
+    public String getMarkerDes() {
+        return ARFilter.getMatchedMarkerDes;
+    }
+
+    @Override
+    public int getMarkerListSize() {
+        return AndroidLauncher.markerList.size();
     }
 
 }

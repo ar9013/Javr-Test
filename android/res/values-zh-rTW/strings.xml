@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pics.info</string>
+
+    <string name="school_title">長榮女中學生宿舍</string>
+    <string name="school_des">畫中的長榮女中二層樓校舍建築揉和中西的作風，\n在參天古木的陪襯下顯得無限莊嚴。\n此畫以碧綠的前庭為前景，一大片的綠地上有幾棵樹木，\n有高有矮，還有一條弧形的小徑。\n長榮女中校舍建築物在碧綠草地及藍天的烘托下，\n顯得壯觀而寧靜。</string>
+
+    <string name="water_pool_title">池畔</string>
+    <string name="water_pool_des">一對佇立於農舍水塘前的父子，\n小孩拉著父親的手，父子二人背對著畫面，\n望向水塘的對岸。\n水塘中湛藍的水色朦朧地映現著綠樹與屋。</string>
+
+    <string name="chiayi_park_title">嘉義公園</string>
+    <string name="chiayi_park_des">鳳凰樹枝攀緣至池面，玲瓏曼妙，彷彿披著金\n黃色的羽毛帶著紅冠的丹頂鶴，又像是一盞\n盞明亮的燈光擎亮在畫之前，效果極為華麗\n，池中的白鵝悠游其，怡然自得。</string>
+
+    <string name="shanghai_title">上海碼頭</string>
+    <string name="shanghai_des">龐大高聳的圓環雕像立於畫面中央，\n後方擁擠的建築物，街道上往來的人們，\n呈現上海碼頭的熱鬧與紛亂的景象。</string>
+
+    <string name="summer_street_title">夏日街景</string>
+    <string name="summer_street_des">全幅多用墨綠\n暗調子，使得\n樸素的房舍彷\n彿籠罩在金黃\n色調中，典雅\n而輝煌。</string>
+
+    <string name="clean_title">清流</string>
+    <string name="clean_des">生動的線條，與充滿寓意的空間表現，\n使整個畫面顯現出獨特的吸引力。</string>
+
+    <string name="chiayi_title">嘉義街外</string>
+    <string name="chiayi_des">畫面中活潑的雞群與人物都退避道旁，\n讓街道筆直地伸向遠方的地平線，\n並與電線桿會合。</string>
+
+
+</resources>

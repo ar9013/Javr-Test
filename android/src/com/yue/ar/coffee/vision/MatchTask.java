@@ -56,6 +56,7 @@ public class MatchTask implements Runnable{
         if (matchesList.size() < 4) {
             // There are too few matches to find the homography.
             Log.d(TAG,"XX matches < 4 , return ");
+
             return;
         }
 
@@ -122,6 +123,7 @@ public class MatchTask implements Runnable{
                 Log.d(TAG, "marker Name : "+markerName);
                 Log.d(TAG,"goodMarkerPoints size : "+goodMarkerePointsList.size());
                 Log.d(TAG,"goodFramePointsList size : "+goodFramePointsList.size());
+
 
                 MatchResult resultMatch = new MatchResult(markerIndex,goodMarkerPoints,goodFramePoints,frameCorners);
                 ARFilter.matchResultBuffer.addLast(resultMatch);

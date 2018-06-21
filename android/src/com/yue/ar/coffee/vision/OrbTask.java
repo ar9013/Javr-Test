@@ -1,6 +1,7 @@
 package com.yue.ar.coffee.vision;
 
-import android.util.Log;
+
+import com.badlogic.gdx.Gdx;
 
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfKeyPoint;
@@ -10,9 +11,9 @@ public class OrbTask implements Runnable{
     private static final String TAG = "OrbTask";
     private Mat frameGray = null;
     // Features of the scene (the current frame).
-    private  MatOfKeyPoint frameKeypoints = null;
+    private MatOfKeyPoint frameKeypoints = null;
     // Descriptors of the scene's features.
-    private  Mat frameDescriptors = null;
+    private Mat frameDescriptors = null;
 
     public OrbTask(){
 
@@ -31,12 +32,12 @@ public class OrbTask implements Runnable{
 
             ARFilter.featureDetector.detect(frameGray, frameKeypoints);
             ARFilter.descriptorExtractor.compute(frameGray, frameKeypoints, frameDescriptors);
-            Log.d(TAG, "frameKeypoints : " + frameKeypoints.toList().size());
-            Log.d(TAG, "frameDescriptors : " + frameDescriptors.size());
+            Gdx.app.debug(TAG, "frameKeypoints : " + frameKeypoints.toList().size());
+            Gdx.app.debug(TAG, "frameDescriptors : " + frameDescriptors.size());
 
             FrameFeature temp = new FrameFeature(frameKeypoints,frameDescriptors);
             ARFilter.frameFeatureBuffer.addLast(temp);
-            Log.d(TAG,"frameFeatureBuffer size : "+ ARFilter.frameFeatureBuffer.size());
+            Gdx.app.debug(TAG,"frameFeatureBuffer size : "+ ARFilter.frameFeatureBuffer.size());
         }
 
     }

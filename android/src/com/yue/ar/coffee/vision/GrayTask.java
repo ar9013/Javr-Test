@@ -1,6 +1,5 @@
 package com.yue.ar.coffee.vision;
 
-import android.graphics.Camera;
 import android.util.Log;
 
 import com.yue.ar.coffee.camera.CameraSurface;
@@ -8,6 +7,7 @@ import com.yue.ar.coffee.camera.CameraSurface;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.imgproc.Imgproc;
+
 
 public class GrayTask implements Runnable {
 

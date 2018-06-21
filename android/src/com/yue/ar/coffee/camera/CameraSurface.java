@@ -34,8 +34,8 @@ public class CameraSurface extends SurfaceView implements SurfaceHolder.Callback
 
         // 設定 預覽大小
         Camera.Parameters params = androidCamera.getParameters();
-        params.setPreviewSize(800,600);
-        androidCamera.setParameters(params);
+        //params.setPreviewSize(w,h);
+      //  androidCamera.setParameters(params);
 
         Camera.Size size = params.getPreviewSize();
         previewHeight = size.height;

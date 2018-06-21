@@ -59,4 +59,30 @@ public class IOSCameraController implements CameraControl {
     public boolean isReady() {
         return false;
     }
+
+    @Override
+    public boolean isTargetFound() {
+        return false;
+    }
+
+    @Override
+    public String getMarkerName() {
+        return null;
+    }
+
+    @Override
+    public String getMarkerTitle() {
+        return null;
+    }
+
+    @Override
+    public String getMarkerDes() {
+        return null;
+    }
+
+    @Override
+    public int getMarkerListSize() {
+        return 0;
+    }
+
 }

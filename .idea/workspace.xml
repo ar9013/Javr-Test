@@ -1,65 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidConfiguredLogFilters">
-    <filters>
-      <filter>
-        <option name="logLevel" value="verbose" />
-        <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="AndroidLauncher" />
-        <option name="name" value="AndroidLauncher" />
-        <option name="packageNamePattern" value="" />
-        <option name="pid" value="" />
-      </filter>
-      <filter>
-        <option name="logLevel" value="verbose" />
-        <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="GrayTask" />
-        <option name="name" value="GrayTask" />
-        <option name="packageNamePattern" value="" />
-        <option name="pid" value="" />
-      </filter>
-      <filter>
-        <option name="logLevel" value="verbose" />
-        <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="OrbTask" />
-        <option name="name" value="OrbTask" />
-        <option name="packageNamePattern" value="" />
-        <option name="pid" value="" />
-      </filter>
-      <filter>
-        <option name="logLevel" value="verbose" />
-        <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="MatchTask" />
-        <option name="name" value="MatchTask" />
-        <option name="packageNamePattern" value="" />
-        <option name="pid" value="" />
-      </filter>
-      <filter>
-        <option name="logLevel" value="verbose" />
-        <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="HomographyTask" />
-        <option name="name" value="HomographyTask" />
-        <option name="packageNamePattern" value="" />
-        <option name="pid" value="" />
-      </filter>
-    </filters>
-  </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="HomographyTask" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd9abc9d-80af-40f6-acc0-d5a099dcb47b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/FrameFeature.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java" />
+    <list default="true" id="0046741e-5a55-45da-925b-ca1df40bb9b7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSans-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSans.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSansFallback.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSansMono.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSerif-Bold.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSerif-BoldItalic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSerif-Italic.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/font/DroidSerif-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/drawable/chiayi.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/drawable/chiayi_park.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/drawable/clean.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/drawable/school.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/drawable/shanghai.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/drawable/summer_street.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/drawable/water_pool.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/values-zh-rCN/strings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/res/values-zh-rTW/strings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/TrackTask.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Javr-Test.iml" afterPath="$PROJECT_DIR$/Javr-Test.iml" />
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable/bird.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable/coffee.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable/fireworks.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/android/res/drawable/rocket.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java" />
       <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/CameraSurface.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/CameraSurface.java" />
       <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ARFilter.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ARFilter.java" />
       <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/GrayTask.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/GrayTask.java" />
       <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/HomographyTask.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/HomographyTask.java" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchResult.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchResult.java" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java" afterPath="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" afterPath="$PROJECT_DIR$/core/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java" afterPath="$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java" afterPath="$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java" />
+      <change beforePath="$PROJECT_DIR$/ios-moe/src/com/yue/ar/coffee/IOSCameraController.java" afterPath="$PROJECT_DIR$/ios-moe/src/com/yue/ar/coffee/IOSCameraController.java" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/lint.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" afterPath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/AsyncServiceHelper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/BaseLoaderCallback.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/Camera2Renderer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLRendererBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraGLSurfaceView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/CameraRenderer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/FpsMeter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/InstallCallbackInterface.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/JavaCameraView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/LoaderCallbackInterface.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/OpenCVLoader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/StaticHelper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/android/Utils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/calib3d/Calib3d.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/calib3d/StereoBM.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/calib3d/StereoMatcher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/calib3d/StereoSGBM.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Algorithm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Core.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/CvException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/CvType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/DMatch.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/KeyPoint.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Mat.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfByte.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfDMatch.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfDouble.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfFloat.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfFloat4.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfFloat6.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfInt.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfInt4.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfKeyPoint.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfPoint.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfPoint2f.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfPoint3.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfPoint3f.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/MatOfRect.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Point.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Point3.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Range.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Rect.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/RotatedRect.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Scalar.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/Size.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/core/TermCriteria.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/features2d/DescriptorExtractor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/features2d/DescriptorMatcher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/features2d/FeatureDetector.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/features2d/Features2d.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgcodecs/Imgcodecs.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/CLAHE.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/Imgproc.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/LineSegmentDetector.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/Moments.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/Subdiv2D.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/ANN_MLP.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/Boost.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/DTrees.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/EM.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/KNearest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/LogisticRegression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/Ml.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/NormalBayesClassifier.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/RTrees.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/SVM.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/StatModel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/ml/TrainData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/objdetect/BaseCascadeClassifier.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/objdetect/CascadeClassifier.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/objdetect/HOGDescriptor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/objdetect/Objdetect.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/AlignExposures.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/AlignMTB.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/CalibrateCRF.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/CalibrateDebevec.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/CalibrateRobertson.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/MergeDebevec.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/MergeExposures.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/MergeMertens.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/MergeRobertson.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/Photo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/Tonemap.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/TonemapDrago.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/TonemapDurand.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/TonemapMantiuk.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/photo/TonemapReinhard.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/utils/Converters.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/video/BackgroundSubtractor.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/video/BackgroundSubtractorKNN.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/video/BackgroundSubtractorMOG2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/video/DenseOpticalFlow.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/video/DualTVL1OpticalFlow.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/video/KalmanFilter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/video/Video.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/videoio/VideoCapture.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/videoio/VideoWriter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/videoio/Videoio.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/openCVLibrary310/src/main/res/values/attrs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
-    <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,102 +175,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidCameraController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java">
+      <file leaf-file-name="CameraControl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="252" column="27" lean-forward="false" selection-start-line="252" selection-start-column="17" selection-end-line="252" selection-end-column="27" />
+            <state relative-caret-position="105">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomographyTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/HomographyTask.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="150">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ARFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ARFilter.java">
+      <file leaf-file-name="TrackTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/TrackTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+            <state relative-caret-position="360">
+              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2568#2569#0" expanded="true" />
-                <element signature="e#2606#2607#0" expanded="true" />
-                <element signature="e#2640#2641#0" expanded="true" />
-                <element signature="e#2681#2682#0" expanded="true" />
-                <element signature="e#2710#2711#0" expanded="true" />
-                <element signature="e#2743#2744#0" expanded="true" />
-                <element signature="e#2772#2773#0" expanded="true" />
-                <element signature="e#2808#2809#0" expanded="true" />
-                <element signature="e#2832#2833#0" expanded="true" />
-                <element signature="e#2864#2865#0" expanded="true" />
-                <element signature="e#3038#3039#0" expanded="true" />
-                <element signature="e#3068#3069#0" expanded="true" />
-                <element signature="e#3231#3232#0" expanded="true" />
-                <element signature="e#3260#3261#0" expanded="true" />
-                <element signature="e#3541#3542#0" expanded="true" />
-                <element signature="e#3572#3573#0" expanded="true" />
-                <element signature="e#3677#3678#0" expanded="true" />
-                <element signature="e#3713#3714#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImageDetectionFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ImageDetectionFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="119" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="119" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="123" column="84" lean-forward="false" selection-start-line="123" selection-start-column="84" selection-end-line="123" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3260#3267#0" expanded="true" />
-                <element signature="e#3345#3352#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coffee.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android/res/drawable/coffee.png">
+      <file leaf-file-name="chiayi.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/res/drawable/chiayi.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GrayTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/GrayTask.java">
+      <file leaf-file-name="chiayi_park.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/res/drawable/chiayi_park.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shanghai.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android/res/drawable/shanghai.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="summer_street.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/res/drawable/summer_street.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="water_pool.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/res/drawable/water_pool.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="31" column="61" lean-forward="false" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="2070">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -185,46 +255,14 @@
       <file leaf-file-name="OrbTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="88" lean-forward="false" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidLauncher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>mReferenceCorners</find>
-      <find>mReferenceKeypoints</find>
-      <find>GrayTask</find>
-      <find>mReferenceDescriptors</find>
-      <find>MatchResult</find>
-      <find>mSceneKeypoints</find>
-      <find>mDescriptorExtractor</find>
-      <find>previewWidth</find>
-      <find>mMatches</find>
-      <find>mSceneCorners</find>
-      <find>markerList</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -333,6 +371,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
@@ -1171,6 +1213,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -1402,6 +1448,10 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
@@ -1775,6 +1825,10 @@
                 <option name="description" value="Run unit tests for all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
@@ -2713,6 +2767,10 @@
                 <option name="name" value="processDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/openCVLibrary310" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/openCVLibrary310" />
                 <option name="name" value="lint" />
@@ -3067,6 +3125,10 @@
                 <option name="description" value="Run unit tests for all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/openCVLibrary310" />
                 <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/openCVLibrary310" />
+                <option name="name" value="transformNativeLibsWithStripDebugSymbolForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/openCVLibrary310" />
@@ -4141,28 +4203,24 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../helloargdx" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../native-camera2" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/FrameFeature.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ImageDetectionFilter.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/GrayTask.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/HomographyTask.java" />
-        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ARFilter.java" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/TrackTask.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="5" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="28" />
+    <option name="width" value="960" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -4179,37 +4237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Javr-Test" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Javr-Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javr-Test" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Javr-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javr-Test" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Javr-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javr-Test" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Javr-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4221,12 +4248,6 @@
               <item name="Javr-Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Javr-Test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javr-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javr-Test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Javr-Test" type="b2602c69:ProjectViewProjectNode" />
@@ -4260,61 +4281,39 @@
               <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="coffee" type="462c0819:PsiDirectoryNode" />
-              <item name="camera" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javr-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javr-Test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="coffee" type="462c0819:PsiDirectoryNode" />
               <item name="vision" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
             <path>
-              <item name="Javr-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javr-Test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Javr-Test" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
             </path>
             <path>
-              <item name="Javr-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javr-Test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javr-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javr-Test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="coffee" type="462c0819:PsiDirectoryNode" />
+              <item name="Javr-Test" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1526190598968" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1529497583736" />
     <property name="device.picker.selection" value="98877b374659453633" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenCV-android-sdk/sdk/java" />
-    <property name="android.project.structure.last.selected" value="android" />
-    <property name="android.project.structure.proportion" value="0.15" />
-    <property name="android.profiler.active" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/android/res/drawable" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/android/libs/x86_64" />
-      <recent name="$PROJECT_DIR$/android/libs/x86" />
-      <recent name="$PROJECT_DIR$/android/libs/armeabi-v7a" />
-      <recent name="$PROJECT_DIR$/android/libs/armeabi" />
-      <recent name="$PROJECT_DIR$/android/libs/arm64-v8a" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -4460,18 +4459,6 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="Javr-Test" />
-      <envs />
-    </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -4484,48 +4471,48 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dd9abc9d-80af-40f6-acc0-d5a099dcb47b" name="Default" comment="" />
-      <created>1526190558635</created>
+      <changelist id="0046741e-5a55-45da-925b-ca1df40bb9b7" name="Default" comment="" />
+      <created>1529497574086</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1526190558635</updated>
+      <updated>1529497574086</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1058" extended-state="7" />
+    <frame x="-3" y="28" width="1926" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3090129" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17982924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12379936" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -4536,314 +4523,169 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="247" column="23" lean-forward="false" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/GrayTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/CameraSurface.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java">
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="247" column="23" lean-forward="false" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/GrayTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/CameraSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary310/src/main/java/org/opencv/imgproc/Imgproc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="1723" column="0" lean-forward="false" selection-start-line="1723" selection-start-column="0" selection-end-line="1723" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/FrameFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/CameraSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/res/drawable/rocket.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/res/drawable/bird.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ImageDetectionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/GrayTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="61" lean-forward="false" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="2070">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="88" lean-forward="false" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchResult.java">
+    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/TrackTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="119" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/AndroidLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/camera/AndroidCameraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="252" column="27" lean-forward="false" selection-start-line="252" selection-start-column="17" selection-end-line="252" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/ARFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2640#2641#0" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2710#2711#0" expanded="true" />
-            <element signature="e#2743#2744#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
-            <element signature="e#2808#2809#0" expanded="true" />
-            <element signature="e#2832#2833#0" expanded="true" />
-            <element signature="e#2864#2865#0" expanded="true" />
-            <element signature="e#3038#3039#0" expanded="true" />
-            <element signature="e#3068#3069#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3541#3542#0" expanded="true" />
-            <element signature="e#3572#3573#0" expanded="true" />
-            <element signature="e#3677#3678#0" expanded="true" />
-            <element signature="e#3713#3714#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/HomographyTask.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="105">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/MatchTask.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="123" column="84" lean-forward="false" selection-start-line="123" selection-start-column="84" selection-end-line="123" selection-end-column="84" />
+        <state relative-caret-position="150">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/TrackTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3260#3267#0" expanded="true" />
-            <element signature="e#3345#3352#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/res/drawable/coffee.png">
+    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/CameraControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/yue/ar/coffee/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/OrbTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/yue/ar/coffee/vision/TrackTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/drawable/chiayi.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/drawable/chiayi_park.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/drawable/water_pool.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/drawable/summer_street.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/drawable/shanghai.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>

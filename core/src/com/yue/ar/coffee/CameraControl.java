@@ -21,5 +21,9 @@ public interface CameraControl {
     byte[] takePictureAsync(long timeout);
     void saveAsJpeg(FileHandle jpgfile, Pixmap cameraPixmap);
     boolean isReady();
-
+    boolean isTargetFound();
+    String getMarkerName();
+    String getMarkerTitle();
+    String getMarkerDes();
+    int getMarkerListSize();
 }

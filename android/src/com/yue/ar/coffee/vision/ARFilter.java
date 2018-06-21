@@ -2,6 +2,8 @@ package com.yue.ar.coffee.vision;
 
 import android.content.Context;
 
+import com.yue.ar.coffee.AndroidLauncher;
+
 import org.opencv.android.Utils;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
@@ -36,11 +38,23 @@ public class ARFilter {
 
     private String markerName = null;
     private int markerID = 0;
+    public String picTitle  = null;
+    public String picDes = null;
 
-    public ARFilter(final Context context, final int markerID,String markerName)throws IOException {
+    public static String matchedMarkerName = null;
+    public static String matchedMarkerTitle = null;
+    public static String getMatchedMarkerDes = null;
+    public static boolean targetFound =false;
+    static int falseCount = 0;
+
+
+    public ARFilter(final Context context, final int markerID,String markerName,String picTitle,String picDes)throws IOException {
         // Load the reference image from the app's resources.
         this.markerName = markerName;
         this.markerID = markerID;
+        this.picTitle = picTitle;
+        this.picDes = picDes;
+
         // It is loaded in BGR (blue, green, red) format.
         markerSrc = Utils.loadResource(context, markerID, Imgcodecs.CV_LOAD_IMAGE_COLOR);
 
@@ -72,6 +86,8 @@ public class ARFilter {
     String getMarkerName(){
         return markerName;
     }
+    String getPicTitle(){return  picTitle;}
+    String getPicDes(){return  picDes;}
 
     Mat getMarkerCorners(){
         return markerCorners;
@@ -80,7 +96,6 @@ public class ARFilter {
     int getMarkerID(){
         return  markerID;
     }
-
 
 
     // make grayframe
@@ -103,11 +118,30 @@ public class ARFilter {
         matchTask.run();
     }
 
-
     static HomographyTask homographyTask = new HomographyTask();
-
     public static void homography(){
         homographyTask.run();
+    }
+
+    static void setTargetFound(boolean istargetFound){
+
+        if(istargetFound != targetFound){
+            targetFound = istargetFound;
+        }
+//
+//        if(istargetFound == true){
+//            falseCount = 0;
+//        }
+//
+//        if(istargetFound == false) {
+//            falseCount ++;
+//
+//            if(falseCount > AndroidLauncher.markerList.size()) {
+//                matchedMarkerName = null;
+//                matchedMarkerTitle = null;
+//                matchedMarkerName = null;
+//            }
+//        }
     }
 
 
